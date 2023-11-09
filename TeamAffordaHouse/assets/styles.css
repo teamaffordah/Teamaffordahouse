@@ -1,0 +1,1119 @@
+@font-face {
+  font-family: aveni;
+  src: url(../fonts/AvenirLTProLight.otf);
+}
+@font-face {
+  font-family: aveniheavy;
+  src: url(../fonts/AvenirLTProHeavy.otf);
+}
+@font-face {
+  font-family: baij;
+  src: url(../fonts/BaiJamjuree-Light.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --first-background-color: #bde9fb;
+  --second-background-color: #f6f6f6;
+  --background-color: #bde9fb;
+  --text-color: #281a39;
+  --menu-text: #c3bfc7;
+  --font_8: normal normal normal 18px/1.75em avenir-lt-w01_85-heavy1475544,
+    avenir-lt-w05_85-heavy, sans-serif;
+}
+body {
+  background-color: var(--second-background-color);
+}
+
+header {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+header h1 {
+  line-height: 1.41em;
+  font-size: 22px;
+  font-family: sans-serif;
+  padding: 30px;
+  padding-left: 54px;
+  color: var(--text-color);
+  font-weight: bold;
+}
+header img {
+  margin-left: 7%;
+}
+/* navbar section */
+
+
+@media screen and (max-width: 768px) {
+  header {
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  }
+  header h1 {
+    text-align: center;
+  }
+ 
+}
+/* end of navbar */
+nav {
+  background-color: var(--text-color);
+}
+nav ul {
+  display: flex;
+  gap: 12px;
+  margin-left: 22px;
+}
+nav ul li {
+  padding: 15px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: var(--menu-text);
+}
+nav ul li a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+/* first section */
+.first-section {
+  background-color: var(--background-color);
+  text-align: center;
+}
+.first-video {
+  text-align: center;
+  padding-top: 22px;
+}
+
+.first-section .first-section-title {
+  margin-top: 44px;
+  line-height: 1.25em;
+  text-align: center;
+  font-size: 72px;
+  color: var(--text-color);
+}
+
+.first-section .first-section-text {
+  margin: 195px;
+  margin-bottom: 71px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.first-section .first-section-text p {
+  color: #281a39;
+  font-family: normal normal normal 18px/1.75em avenir-lt-w01_85-heavy1475544,
+    avenir-lt-w05_85-heavy, sans-serif;
+  font-weight: bold;
+  margin-bottom: 30px;
+  font-size: 18px;
+  line-height: 40px;
+}
+.first-section .first-section-text .token p {
+  margin-bottom: 0px;
+}
+
+.first-section .first-section-text .token a {
+  width: 30px;
+  color: #281a39;
+}
+
+.first-section .first-section-text h2 {
+  padding: 44px;
+}
+.first-section .first-section-text .contact {
+  border: 1px solid #281a39;
+  padding: 13px;
+  border-radius: 23px;
+  color: #281a39;
+}
+.first-section .first-section-text .contact:hover {
+  border: 1px solid #281a39;
+  color: var(--menu-text);
+  background-color: var(--text-color);
+  transition: 0.3s;
+}
+/* end first section */
+
+/* strat second section */
+.second-section {
+  margin: 15%;
+  margin-top: 0;
+  background-color: var(--second-background-color);
+}
+.second-video {
+  text-align: center;
+  padding-top: 12px;
+}
+.second-section h1 {
+  font-size: 43px;
+  font-family: baij;
+
+  font-weight: 400;
+  margin-bottom: 50px;
+  color: var(--text-color);
+}
+
+.second-section .second-section-text p {
+  text-align: center;
+  margin-left: 50px;
+  color: var(--text-color);
+  margin-right: 50px;
+  margin-bottom: 35px;
+  font-family: aveni;
+  font-size: 18px;
+  line-height: 35px;
+  font-weight: 100;
+}
+/* end second section */
+
+/* footer */
+footer {
+  text-align: center;
+}
+footer h1 {
+  color: var(--text-color);
+  font-family: aveniheavy;
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+footer p {
+  color: var(--text-color);
+  font-size: 20px;
+}
+
+footer .date-follow {
+  margin-bottom: 33px;
+}
+footer .contact-us p {
+  padding: 6px;
+  font-family: sans-serif;
+  font-weight: 500;
+  color: #281a39;
+}
+footer .contact-us a {
+  text-decoration: none;
+  color: #281a39;
+}
+footer .contact-us a:hover {
+  color: #5e3e82;
+  text-decoration: underline;
+}
+footer img {
+  width: 100%;
+  max-width: 940px;
+  margin: 3rem 0;
+}
+footer h3 {
+  color: var(--text-color);
+  font-family: aveniheavy;
+  font-size: 30px;
+  margin-bottom: 160px;
+  margin-top: 50px;
+}
+
+/* end footer */
+
+/* cuminty html style */
+.community {
+  text-align: center;
+  margin: 240px;
+  margin-top: 50px;
+}
+.community h1 {
+  color: var(--text-color);
+  font-size: 50px;
+  margin-bottom: 43px;
+}
+.community p {
+  color: #281a39;
+  margin-bottom: 33px;
+  line-height: 28px;
+  font-family: aveniheavy;
+}
+
+.community .gallery img {
+  margin-top: 63px;
+  max-width: 900px;
+  
+  width: 100%;
+}
+
+/* end cuminty html style */
+
+/* start whitepaper section */
+.whitepaper-section {
+  display: flex;
+  flex-direction: row;
+  background-color: #eae0da;
+}
+.whitepaper-section img {
+  width: 100%;
+  max-width: 700px;
+  max-height: 500px;
+  height: 100%;
+}
+.whitepaper-section .download {
+  margin-left: 70px;
+}
+.whitepaper-section .download h1 {
+  color: #104781;
+  font-size: 72px;
+  font-family: "Arial", "Helvetica", sans-serif;
+  font-weight: 500;
+  margin-bottom: 33px;
+}
+.whitepaper-section .download a {
+  padding: 12px;
+  border-radius: 4px;
+  background-color: #104781;
+  color: white;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.2em;
+  font-family: avenir-lt-w01_85-heavy1475544, sans-serif;
+}
+.whitepaper-section .download a:hover {
+  opacity: 0.8;
+}
+
+/* end whitepaper section */
+
+/* start roadmap section */
+
+.roadmap-section {
+  text-align: center;
+  margin-top: 44px;
+}
+
+.roadmap-s-1 h1 {
+  font-size: 88px;
+  color: var(--text-color);
+  margin-bottom: 12px;
+}
+.roadmap-s-1 img{
+    width: 100%;
+    max-width: 900px;
+}
+
+.roadmap-s-2 {
+  background-color: var(--background-color);
+}
+.roadmap-s-2 h1 {
+  font-size: 56px;
+  padding-top: 53px;
+  margin-bottom: 33px;
+}
+.roadmap-s-2 p {
+    font-size: 18px;
+    margin: 12px  ;
+    
+}
+/* /* end whitepaper section */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* CSS styles for tablets go here */
+  
+/* first section */
+.first-section {
+  background-color: var(--background-color);
+  text-align: center;
+}
+.first-video {
+  text-align: center;
+  padding-top: 22px;
+}
+
+.first-section .first-section-title {
+  margin-top: 44px;
+  line-height: 1.25em;
+  text-align: center;
+  font-size: 62px;
+  color: var(--text-color);
+}
+
+.first-section .first-section-text {
+  margin: 65px;
+  margin-bottom: 71px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.first-section .first-section-text p {
+  color: #281a39;
+  font-family: normal normal normal 18px/1.75em avenir-lt-w01_85-heavy1475544,
+    avenir-lt-w05_85-heavy, sans-serif;
+  font-weight: bold;
+  margin-bottom: 30px;
+  font-size: 18px;
+  line-height: 40px;
+}
+.first-section .first-section-text .token p {
+  margin-bottom: 0px;
+}
+
+.first-section .first-section-text .token a {
+  width: 30px;
+  color: #281a39;
+}
+
+.first-section .first-section-text h2 {
+  padding: 44px;
+}
+.first-section .first-section-text .contact {
+  border: 1px solid #281a39;
+  padding: 13px;
+  border-radius: 23px;
+  color: #281a39;
+}
+.first-section .first-section-text .contact:hover {
+  border: 1px solid #281a39;
+  color: var(--menu-text);
+  background-color: var(--text-color);
+  transition: 0.3s;
+}
+/* end first section */
+
+/* strat second section */
+.second-section {
+  margin: 3%;
+  margin-top: 0;
+  background-color: var(--second-background-color);
+}
+.second-video {
+  text-align: center;
+  padding-top: 12px;
+}
+.second-section h1 {
+  font-size: 43px;
+  font-family: baij;
+
+  font-weight: 400;
+  margin-bottom: 50px;
+  color: var(--text-color);
+}
+
+.second-section .second-section-text p {
+  text-align: center;
+  margin-left: 50px;
+  color: var(--text-color);
+  margin-right: 50px;
+  margin-bottom: 35px;
+  font-family: aveni;
+  font-size: 18px;
+  line-height: 35px;
+  font-weight: 100;
+}
+/* end second section */
+
+/* footer */
+footer {
+  text-align: center;
+}
+footer h1 {
+  color: var(--text-color);
+  font-family: aveniheavy;
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+footer p {
+  color: var(--text-color);
+  font-size: 20px;
+}
+
+footer .date-follow {
+  margin-bottom: 33px;
+}
+footer .contact-us p {
+  padding: 6px;
+  font-family: sans-serif;
+  font-weight: 500;
+  color: #281a39;
+}
+footer .contact-us a {
+  text-decoration: none;
+  color: #281a39;
+}
+footer .contact-us a:hover {
+  color: #5e3e82;
+  text-decoration: underline;
+}
+footer img {
+  width: 100%;
+  max-width: 940px;
+  margin: 3rem 0;
+}
+footer h3 {
+  color: var(--text-color);
+  font-family: aveniheavy;
+  font-size: 30px;
+  margin-bottom: 160px;
+  margin-top: 50px;
+}
+
+/* end footer */
+
+/* cuminty html style */
+.community {
+  text-align: center;
+  margin: 40px;
+  margin-top: 50px;
+}
+.community h1 {
+  color: var(--text-color);
+  font-size: 50px;
+  margin-bottom: 43px;
+}
+.community p {
+  color: #281a39;
+  margin-bottom: 33px;
+  line-height: 28px;
+  font-family: aveniheavy;
+}
+
+.community .gallery img {
+  margin-top: 63px;
+  max-width: 900px;
+  
+  width: 100%;
+}
+
+/* end cuminty html style */
+
+/* start whitepaper section */
+.whitepaper-section {
+
+  display: block;
+  height: 700px;
+  background-color: #eae0da;
+}
+.whitepaper-section img {
+  width: 100%;
+  max-width: 900px;
+  
+  height: 100%;
+}
+.whitepaper-section .download {
+  margin-left: 70px;
+}
+.whitepaper-section .download h1 {
+  color: #104781;
+  font-size: 72px;
+  font-family: "Arial", "Helvetica", sans-serif;
+  font-weight: 500;
+  margin-bottom: 33px;
+}
+.whitepaper-section .download a {
+  padding: 12px;
+  border-radius: 4px;
+  background-color: #104781;
+  color: white;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.2em;
+  font-family: avenir-lt-w01_85-heavy1475544, sans-serif;
+}
+.whitepaper-section .download a:hover {
+  opacity: 0.8;
+}
+
+/* end whitepaper section */
+
+/* start roadmap section */
+
+.roadmap-section {
+  text-align: center;
+  margin-top: 44px;
+}
+
+.roadmap-s-1 h1 {
+  font-size: 88px;
+  color: var(--text-color);
+  margin-bottom: 12px;
+}
+.roadmap-s-1 img{
+    width: 100%;
+    max-width: 900px;
+}
+
+.roadmap-s-2 {
+  background-color: var(--background-color);
+}
+.roadmap-s-2 h1 {
+  font-size: 56px;
+  padding-top: 53px;
+  margin-bottom: 33px;
+}
+.roadmap-s-2 p {
+    font-size: 18px;
+    margin: 12px  ;
+    
+}
+}
+
+
+
+@media only screen and (max-width: 767px) {
+
+header img {
+  width: 50%;
+}
+  
+  nav {
+    background-color: var(--text-color);
+    text-align: center;
+  }
+  nav ul {
+    display: flex;
+    gap: 12px;
+    margin-left: 22px;
+  }
+  nav ul li {
+    padding: 15px;
+  }
+  nav ul li a {
+    font-size: 12px;
+    text-decoration: none;
+    color: var(--menu-text);
+  }
+  nav ul li a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+/* first section */
+.first-section {
+  background-color: var(--background-color);
+  text-align: center;
+}
+.first-video {
+  text-align: center;
+  padding-top: 22px;
+}
+
+.first-section .first-section-title {
+  margin-top: 44px;
+  line-height: 1.25em;
+  text-align: center;
+  font-size: 42px;
+  color: var(--text-color);
+}
+
+.first-section .first-section-text {
+  margin: 45px;
+  margin-bottom: 71px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.first-section .first-section-text p {
+  color: #281a39;
+  font-family: normal normal normal 18px/1.75em avenir-lt-w01_85-heavy1475544,
+    avenir-lt-w05_85-heavy, sans-serif;
+  font-weight: bold;
+  margin-bottom: 30px;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.first-section .first-section-text .token p {
+  margin-bottom: 0px;
+}
+
+.first-section .first-section-text .token a {
+  width: 30px;
+  color: #281a39;
+}
+.first-section .first-section-text .token .token-link{
+  font-size: 13px;
+  
+}
+
+.first-section .first-section-text h2 {
+  padding: 44px;
+}
+.first-section .first-section-text .contact {
+  border: 1px solid #281a39;
+  padding: 13px;
+  border-radius: 23px;
+  color: #281a39;
+}
+.first-section .first-section-text .contact:hover {
+  border: 1px solid #281a39;
+  color: var(--menu-text);
+  background-color: var(--text-color);
+  transition: 0.3s;
+}
+/* end first section */
+
+/* strat second section */
+.second-section {
+  margin: 1%;
+  margin-top: 0;
+  background-color: var(--second-background-color);
+}
+.second-video {
+  text-align: center;
+  padding-top: 12px;
+}
+.second-section h1 {
+  font-size: 43px;
+  font-family: baij;
+
+  font-weight: 400;
+  margin-bottom: 50px;
+  color: var(--text-color);
+}
+
+.second-section .second-section-text p {
+  text-align: center;
+  margin-left: 50px;
+  color: var(--text-color);
+  margin-right: 50px;
+  margin-bottom: 35px;
+  font-family: aveni;
+  font-size: 18px;
+  line-height: 35px;
+  font-weight: 100;
+}
+/* end second section */
+
+/* footer */
+footer {
+  text-align: center;
+}
+footer h1 {
+  color: var(--text-color);
+  font-family: aveniheavy;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+footer p {
+  color: var(--text-color);
+  font-size: 20px;
+}
+
+footer .date-follow {
+  margin-bottom: 33px;
+}
+footer .contact-us p {
+  padding: 6px;
+  font-family: sans-serif;
+  font-weight: 500;
+  color: #281a39;
+}
+footer .contact-us a {
+  text-decoration: none;
+  color: #281a39;
+}
+footer .contact-us a:hover {
+  color: #5e3e82;
+  text-decoration: underline;
+}
+footer img {
+  width: 100%;
+  max-width: 940px;
+  margin: 3rem 0;
+}
+footer h3 {
+  color: var(--text-color);
+  font-family: aveniheavy;
+  font-size: 30px;
+  margin-bottom: 160px;
+  margin-top: 50px;
+}
+
+/* end footer */
+
+/* cuminty html style */
+.community {
+  text-align: center;
+  margin: 40px;
+  margin-top: 50px;
+}
+.community h1 {
+  color: var(--text-color);
+  font-size: 50px;
+  margin-bottom: 43px;
+}
+.community p {
+  color: #281a39;
+  margin-bottom: 33px;
+  line-height: 28px;
+  font-family: aveniheavy;
+}
+
+.community .gallery img {
+  margin-top: 63px;
+  max-width: 900px;
+  
+  width: 100%;
+}
+
+/* end cuminty html style */
+
+/* start whitepaper section */
+.whitepaper-section {
+
+  display: block;
+  height: 700px;
+  background-color: #eae0da;
+}
+.whitepaper-section img {
+  width: 100%;
+  max-width: 900px;
+  
+  height: 100%;
+}
+.whitepaper-section .download {
+  margin-left: 70px;
+}
+.whitepaper-section .download h1 {
+  color: #104781;
+  font-size: 42px;
+  font-family: "Arial", "Helvetica", sans-serif;
+  font-weight: 700;
+  margin-bottom: 33px;
+  margin-top: 33px;
+}
+.whitepaper-section .download a {
+  padding: 12px;
+  border-radius: 4px;
+  background-color: #104781;
+  color: white;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.2em;
+  font-family: avenir-lt-w01_85-heavy1475544, sans-serif;
+}
+.whitepaper-section .download a:hover {
+  opacity: 0.8;
+}
+
+/* end whitepaper section */
+
+/* start roadmap section */
+
+.roadmap-section {
+  text-align: center;
+  margin-top: 44px;
+}
+
+.roadmap-s-1 h1 {
+  font-size: 88px;
+  color: var(--text-color);
+  margin-bottom: 12px;
+}
+.roadmap-s-1 img{
+    width: 100%;
+    max-width: 900px;
+}
+
+.roadmap-s-2 {
+  background-color: var(--background-color);
+}
+.roadmap-s-2 h1 {
+  font-size: 56px;
+  padding-top: 53px;
+  margin-bottom: 33px;
+}
+.roadmap-s-2 p {
+    font-size: 18px;
+    margin: 12px  ;
+    
+}
+  /* CSS styles for mobile devices go here */
+}
+/* mobile section */
+@media only screen and (max-width: 543px) {
+  /* CSS styles for mobile devices go here */
+  nav {
+    background-color: var(--text-color);
+    text-align: center;
+  }
+  nav ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr
+    );
+    gap: 12px;
+    margin-left: 22px;
+  }
+  nav ul li {
+    padding:10px 5px;
+    
+  }
+  nav ul li a {
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--menu-text);
+  }
+  nav ul li a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+}
+@media only screen and (max-width: 420px) {
+  /* first section */
+.first-section {
+  background-color: var(--background-color);
+  text-align: center;
+}
+.first-video {
+  text-align: center;
+  padding-top: 22px;
+}
+
+.first-section .first-section-title {
+  margin-top: 44px;
+  line-height: 1.25em;
+  text-align: center;
+  font-size: 32px;
+  color: var(--text-color);
+}
+
+.first-section .first-section-text {
+  margin: 5px;
+  margin-bottom: 71px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.first-section .first-section-text p {
+  color: #281a39;
+  font-family: normal normal normal 18px/1.75em avenir-lt-w01_85-heavy1475544,
+    avenir-lt-w05_85-heavy, sans-serif;
+  font-weight: bold;
+  margin-bottom: 30px;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.first-section .first-section-text .token p {
+  margin-bottom: 0px;
+}
+
+.first-section .first-section-text .token a {
+  width: 30px;
+  color: #281a39;
+}
+.first-section .first-section-text .token .token-link{
+  font-size: 10px;
+  font-weight: bold;
+}
+.first-section .first-section-text .token .tall-link{
+  font-size: 7px;
+}
+.first-section .first-section-text h2 {
+  padding: 44px;
+}
+.first-section .first-section-text .contact {
+  border: 1px solid #281a39;
+  padding: 13px;
+  border-radius: 23px;
+  color: #281a39;
+}
+.first-section .first-section-text .contact:hover {
+  border: 1px solid #281a39;
+  color: var(--menu-text);
+  background-color: var(--text-color);
+  transition: 0.3s;
+}
+/* end first section */
+
+/* strat second section */
+.second-section {
+  margin: 3px;
+  margin-top: 0;
+  background-color: var(--second-background-color);
+}
+.second-video {
+  text-align: center;
+  padding-top: 12px;
+}
+.second-section h1 {
+  font-size: 43px;
+  font-family: baij;
+
+  font-weight: 400;
+  margin-bottom: 50px;
+  color: var(--text-color);
+}
+
+.second-section .second-section-text p {
+  text-align: center;
+  margin-left: 0px;
+  color: var(--text-color);
+  margin-right: 0px;
+  margin-bottom: 35px;
+  font-family: aveni;
+  font-size: 18px;
+  line-height: 35px;
+  font-weight: 100;
+}
+/* end second section */
+
+/* footer */
+footer {
+  text-align: center;
+}
+footer h1 {
+  color: var(--text-color);
+  font-family: aveniheavy;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+footer p {
+  color: var(--text-color);
+  font-size: 20px;
+}
+
+footer .date-follow {
+  margin-bottom: 33px;
+}
+footer .contact-us p {
+  padding: 16px;
+  margin: 9px;
+  font-family: sans-serif;
+  font-weight: 500;
+  color: #281a39;
+}
+footer .contact-us a {
+  text-decoration: none;
+  color: #281a39;
+  font-size: 15px;
+  font-weight: bold;
+}
+footer .contact-us a:hover {
+  color: #5e3e82;
+  text-decoration: underline;
+}
+footer img {
+  width: 100%;
+  max-width: 940px;
+  margin: 3rem 0;
+}
+footer h3 {
+  color: var(--text-color);
+  font-family: aveniheavy;
+  font-size: 30px;
+  margin-bottom: 160px;
+  margin-top: 50px;
+}
+
+/* end footer */
+
+/* cuminty html style */
+.community {
+  text-align: center;
+  margin: 40px;
+  margin-top: 50px;
+}
+.community h1 {
+  color: var(--text-color);
+  font-size: 50px;
+  margin-bottom: 43px;
+}
+.community p {
+  color: #281a39;
+  margin-bottom: 33px;
+  line-height: 28px;
+  font-family: aveniheavy;
+}
+
+.community .gallery img {
+  margin-top: 63px;
+  max-width: 900px;
+  
+  width: 100%;
+}
+
+/* end cuminty html style */
+
+/* start whitepaper section */
+.whitepaper-section {
+
+  display: block;
+  height: 700px;
+  background-color: #eae0da;
+}
+.whitepaper-section img {
+  width: 100%;
+  max-width: 900px;
+  
+  height: 100%;
+}
+.whitepaper-section .download {
+  margin-left: 70px;
+}
+.whitepaper-section .download h1 {
+  color: #104781;
+  font-size: 42px;
+  font-family: "Arial", "Helvetica", sans-serif;
+  font-weight: 700;
+  margin-bottom: 33px;
+  margin-top: 33px;
+}
+.whitepaper-section .download a {
+  padding: 12px;
+  border-radius: 4px;
+  background-color: #104781;
+  color: white;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.2em;
+  font-family: avenir-lt-w01_85-heavy1475544, sans-serif;
+}
+.whitepaper-section .download a:hover {
+  opacity: 0.8;
+}
+
+/* end whitepaper section */
+
+/* start roadmap section */
+
+.roadmap-section {
+  text-align: center;
+  margin-top: 44px;
+}
+
+.roadmap-s-1 h1 {
+  font-size: 88px;
+  color: var(--text-color);
+  margin-bottom: 12px;
+}
+.roadmap-s-1 img{
+    width: 100%;
+    max-width: 900px;
+}
+
+.roadmap-s-2 {
+  background-color: var(--background-color);
+}
+.roadmap-s-2 h1 {
+  font-size: 56px;
+  padding-top: 53px;
+  margin-bottom: 33px;
+}
+.roadmap-s-2 p {
+    font-size: 18px;
+    margin: 12px  ;
+    
+}
+  /* CSS styles for mobile devices go here */
+}
